@@ -1,0 +1,79 @@
+.dataGerejaCard-component {
+  background-color: white;
+
+
+  .row-1{
+    margin-top: 10%;
+    display: flex;
+    text-align: center;
+
+  }
+
+  .progress-bar{
+    background-color: #31AA75;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .bg-warning{
+    background-color: #FF8E00 !important;
+  }
+
+
+  .col-1{
+
+    display: block;
+    text-align: center;
+
+  }
+
+  
+
+  .data-gereja {
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+
+    .data-gereja-carousel {
+      .card-1 {
+        color: white;
+        background: #31AA75;
+      }
+      .card-2 {
+        color: white;
+        background: #FF8E00;
+      }
+      .card-3 {
+        color: white;
+        background: #CF3333;
+      }
+
+      .card-height {
+        height: 100px;
+        background-color: #CF3333;
+      }
+
+      .box {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+      }
+      .blue {
+        background: #1900ff;
+      }
+      
+      .orange {
+        background: #FF8E00;
+      }
+
+      .green {
+        background: #31AA75;
+      }
+
+      .red {
+        background: #CF3333;
+      }
+    }
+  }
+}

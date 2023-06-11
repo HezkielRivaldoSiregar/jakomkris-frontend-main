@@ -1,0 +1,130 @@
+body {
+  font-family: arial, sans-serif;
+  text-transform: capitalize;
+}
+
+h1 {
+  color: rgb(135, 135, 135);
+  font-size: 24px;
+  font-weight: 100px;
+  line-height: 28.8px;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 100px;
+  line-height: 19.2px;
+}
+
+.information {
+  font-family: Arial Rounded MT;
+  font-size: 18px;
+  .kpi-peta{
+     margin: 0 auto;
+     justify-content: center;
+  }
+  .image-col{
+      float: right;
+      width: 100%;
+  }
+
+  
+}
+
+.temperature {
+  color: rgb(33, 33, 33);
+  font-family: arial, helvetica, sans-serif;
+  font-size: 34px;
+  font-stretch: 100%;
+  font-weight: 400;
+  line-height: 1;
+  position: relative;
+  left: -20px;
+  margin-left: 15px;
+  letter-spacing: -3px;
+}
+
+.temperature small {
+  position: relative;
+  font-size: 16px;
+  top: -22px;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+.weather {
+  position: relative;
+  left: -5px;
+}
+.loader {
+  padding: 60px 0;
+}
+.loader svg {
+  margin: 0 auto;
+  display: block;
+  opacity: 0.8;
+}
+
+.lagi {
+  background-color: red;
+}
+
+
+
+.mymodal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  height: auto;
+  
+
+  .closing {
+    width: 100%;
+
+    color: white;
+    bottom: 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}
+.weather-bawah {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: auto;
+  display: flex;
+  padding: 5px;
+  // width: 500px;
+  min-width: 200px;
+  max-width: 400px;
+  border: none;
+
+  .card-body {
+    width: 100px;
+  }
+
+  span {
+    margin-left: 5px;
+    width: 900px;
+  }
+
+  .card-1 {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,9 @@
+.wrap-google-maps {
+    position: relative;
+
+    .google-maps {
+        .gm-control-active, .gm-fullscreen-control {
+            display: none;
+        }
+    }
+}
