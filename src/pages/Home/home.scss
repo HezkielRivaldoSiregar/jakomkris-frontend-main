@@ -1,0 +1,89 @@
+.home-page {
+    .container-page {
+        .left-side {
+            padding-left: 12px;
+            padding-right: 12px;
+
+            .welcome {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                border-radius: 8px;
+                height: 108px;
+                padding: 24px;
+                margin-bottom: 12px;
+
+                .welcome-people {
+                    position: absolute;
+                    right: 24px;
+                    bottom: 0;
+                    width: 162px;
+                    height: 102px;
+                }
+
+                .title {
+                    margin-top: 0;
+                    margin-bottom: auto;
+                }
+
+                .desc {
+                    margin-top: auto;
+                    margin-bottom: 0;
+                }
+            }
+
+            .article {
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                border-radius: 8px;
+                // height: 316px;
+                padding: 24px;
+
+                .header-side {
+                    margin-bottom: 24px;
+                }
+
+                .content-side {
+                    .top-side {
+                        width: 100%;
+                        height: 316px;
+                        margin-bottom: 24px;
+                        background-color: #DEDEDE;
+                        border-radius: 6px;
+                    }
+
+                    .bottom-side {
+
+                        .title {
+                            white-space: nowrap; 
+                            width: 100%;
+                            height: 30px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            margin-bottom: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .carousel, .carousel-inner{
+            border-radius: 10px;
+            width: 100%;
+        }
+        .d-hotline h-btn{
+            visibility: hidden;
+            display: none;
+        }
+    }
+
+    .fab-container {
+        bottom: 3vh;
+        position: fixed;
+        margin: 1em;
+        right: 3vw;
+        z-index: 1;
+    }
+
+ 
+}

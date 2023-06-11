@@ -1,0 +1,122 @@
+.login-page {
+    max-width: none;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+
+    .content-page {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: #FFFFFF;
+
+        .left-side {
+            background-color: #000000;
+            padding: 0;
+
+            @media (max-width: 991px) {
+                display: none;
+            }
+
+            .background-cover::before {
+                opacity: 0.5;
+            }
+            .background-cover {
+                background-image: url("https://images.unsplash.com/photo-1515162305285-0293e4767cc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2h1cmNofGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .logo-content {
+                    max-width: 290px;
+                    max-height: 68px;
+                    margin: auto;
+                    opacity: 1;
+    
+                    img {
+                        width: 100%;    
+                    }
+                }
+            }
+        }
+    
+        .right-side {
+            position: relative;
+            width: 586px;
+            height: 100%;
+            background-color: #FFFFFF;
+            padding: 0;
+
+            @media (max-width: 991px) {
+                margin: 0 auto;
+            }
+    
+            .body-content {
+                width: 288px;
+                height: 506px;
+                margin: 90px auto auto auto;
+    
+                form {
+                    .form-input {
+                        flex-direction: column;
+                        justify-content: space-between;
+    
+                        label {
+                            font-family: Arial Rounded MT;
+                            font-size: 14px;
+                            height: 16px;
+                            margin-bottom: 16px;
+                        }
+    
+                        input {
+                            width: 100%;
+                            height: 40px;
+                            padding: 12px 16px 12px 16px;
+                            font-family: Arial Rounded MT;
+                            font-size: 14px;
+                        }
+                    }
+                }
+    
+                .captcha {
+                    margin: 24px 0;
+                    padding: 4px;
+
+                    &.error {
+                        border: 1px solid #FF3E3E;
+                        border-radius: 2px;
+                    }
+
+                    .text-error {
+                        color: #FF3E3E;
+                        margin: -4px 4px 4px 4px;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+    
+            .footer-content {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+
+                .footer-mail {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 34px;
+
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
